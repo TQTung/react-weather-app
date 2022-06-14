@@ -1,0 +1,31 @@
+@import 'normalize.css';
+
+:root {
+    --text-color: #333;
+    --white-color: #fff;
+    --primary: #278569;
+    --black-color: #000;
+    --hover-color: #00000008;
+}
+
+html {
+    font-size: 62.5%;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'montseratt', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
